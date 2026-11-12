@@ -1,0 +1,17 @@
+body {
+    background-color: blanchedalmond;
+}
+.bordered {
+    background-color: azure;
+    border: solid 2px black;
+    padding: 10px;
+}
+
+.red {
+    padding: 20px;
+    margin: 5px;
+}
+.red:hover {
+    color: red;
+    background-color: brown;
+}

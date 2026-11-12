@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Apostles Spotlights</title>
+    <style>
+        body {
+            background-image: url("images/christus.webp");
+            background-size: cover;
+            background-repeat: no-repeat;
+            color: #E8ECED;
+            text-align: center;
+            background-position: center;
+            font: 15px none Arial, sans-serif;
+        }
+        header{
+            display: grid;
+            grid-template-columns: 2fr 1fr 2fr; /* fr = fraction of the page = % */
+            column-gap: 20px;
+        }
+        main {
+            display: grid;
+            grid-template-columns: 3fr 1fr 1fr 3fr; /* fr = fraction of the page = % */
+            column-gap: 20px;
+        }
+        img {
+            border: 10px solid #E8ECED;
+            border-radius: 100%;
+            width: 100px;
+            max-width: 100px;
+            max-height: 100px;
+            object-fit: cover;
+            text-align: center;
+        }
+        img:hover {
+            border: 10px solid #53d2f2;
+        }
+        .right {
+            justify-self: right;
+        }
+        .head {
+            width: 150px;
+            border: 10px solid #E8ECED;
+            height: 150px;
+            max-width: 150px;
+            max-height: 150px;
+            object-fit: cover;
+        }
+    </style>
+</head>
+<body>
+    <h1>First Presidency</h1>
+    <header>
+        <img class="right head" src="images/eyring.webp" alt="eyring">
+        <img class="head" src="images/oaks.webp" alt="">
+        <img class="head" src="images/christofferson.webp" alt="">
+    </header>
+    <h2>Quorum of the Twelve Apostles</h2>
+    <main>
+        <img class="right" src="images/uchtdorf.webp" alt="">
+        <img src="images/bednar.webp" alt="">
+        <img src="images/cook.webp" alt="">
+        <img src="images/anderson.webp" alt="">
+
+        <img class="right" src="images/rasband.webp" alt="">
+        <img src="images/stevenson.webp" alt="">
+        <img src="images/renlund.webp" alt="">
+        <img src="images/gong.webp" alt="">
+
+        <img class="right" src="images/soares.webp" alt="">
+        <img src="images/kearon.webp" alt="">
+        <img src="images/causse.webp" alt="">
+        <img src="images/gilbert.webp" alt="">
+    </main>
+</body>
+</html>

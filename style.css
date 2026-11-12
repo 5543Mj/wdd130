@@ -1,0 +1,14 @@
+body {
+    background-color:rgb(224, 203, 97);
+    color:rgb(25, 58, 58);
+}
+table {
+    border: 3px;
+    border-color: aqua;
+}
+h1 {
+    font-size: 50px;
+}
+h1.beginning {
+    font-size: 30px;
+}
